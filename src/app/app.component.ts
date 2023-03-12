@@ -11,4 +11,7 @@ export class AppComponent {
   getAction(item: any) {
     this.resulte += item;
   }
+  equal() {
+    this.resulte = eval(this.resulte).tofix(2);
+  }
 }
