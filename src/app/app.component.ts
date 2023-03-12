@@ -14,4 +14,7 @@ export class AppComponent {
   equal() {
     this.resulte = eval(this.resulte).tofix(2);
   }
+  reset() {
+    this.resulte = "";
+  }
 }
