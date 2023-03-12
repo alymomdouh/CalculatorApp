@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'CalculatorApp';
+  resulte = "";
+  getAction(item: any) {
+    this.resulte += item;
+  }
 }
